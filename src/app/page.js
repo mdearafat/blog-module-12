@@ -1,5 +1,6 @@
 import Link from "next/link";
 import LatestPost from "./components/LatestPost";
+import Contact from "./components/Contact";
 const Home = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Home = () => {
         </div>
       </section>
       <LatestPost />
+      <Contact />
     </>
   );
 };

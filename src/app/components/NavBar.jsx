@@ -1,3 +1,4 @@
+import Link from "next/link";
 const Header = () => {
   return (
     <header className="bg-white">
@@ -9,10 +10,10 @@ const Header = () => {
           <div className="md:flex md:items-center md:gap-12">
             <nav aria-label="Global" className="hidden md:block">
               <ul className="flex items-center gap-6 text-black text-md">
-                <li>Home</li>
-                <li>Blog</li>
-                <li>About</li>
-                <li>Contact</li>
+                <Link href="/">Home</Link>
+                <Link href="/blogs">Blogs</Link>
+                <Link href="/about">About Us</Link>
+                <Link href="/contact">Contact Us</Link>
               </ul>
             </nav>
           </div>
